@@ -16,4 +16,4 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_KEY }}
 
       - name: Deploy to production server
-        run: bash deploy-in-vm.sh
+        run: bash deploy.sh
